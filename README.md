@@ -9,7 +9,7 @@ Android Studio를 이용한 앱 만들기
 ## 오늘 마루
 평소 날씨, 미세먼지 등을 알기 위해 각각 다른 앱을 사용하는 것에 불편함을 느꼈다. 또한, 외출하기 전 기온에 따라 어떤 입을 입어야 할지 감이 안잡히는 경우도 많다. 이런 아이디어에서 착안하여 사람들이 관심있는 정보(날씨, 기온별 옷차림)을 통합해서 제공하는 어플을 만들게 되었다.
 
-- [Maru](https://github.com/hyejeong99/Android/GURU) - Android App
+- [Maru](https://github.com/hyejeong99/Android) - Android App
 
 ## 관련 앱 조사
 ![날씨](https://user-images.githubusercontent.com/59854960/113311294-1daf0280-9344-11eb-91d4-bf97fcd50339.JPG)
