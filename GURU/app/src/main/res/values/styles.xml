@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--액션바 없애기(DarkActionBar-NoActionBar)/change-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">//"Theme.AppCompat.Light.DarkActionBar"
+        <!-- Customize your theme here. -->
+        <!--툴바(흰색)-->
+        <item name="colorPrimary">#FFFFFF</item>
+        <!--액션바 색-->
+        <item name="colorPrimaryDark">#A1CDE1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        &lt;!&ndash;액션바 없애기&ndash;&gt;-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        &lt;!&ndash;툴바 타이틀 없애기&ndash;&gt;-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        &lt;!&ndash;툴바에 사진 얹기&ndash;&gt;-->
+    </style>
+    <!--로딩 화면-->
+    <style name="SplashThema" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/loding_screen</item>
+    </style>
+
+</resources>
