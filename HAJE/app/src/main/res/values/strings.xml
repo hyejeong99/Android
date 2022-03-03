@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HAJE</string>
+    <string name="NaviButton">길안내</string>
+    <string name="Navi2Button">목적지 공유하기</string>
+</resources>

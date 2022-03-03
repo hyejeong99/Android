@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057935913962",
+    "project_id": "haje-21933",
+    "storage_bucket": "haje-21933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057935913962:android:7bca32878007bd527eb893",
+        "android_client_info": {
+          "package_name": "com.cookandroid.haje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057935913962-au92bb91b3asj7saf4nr7ttififu4u3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.haje",
+            "certificate_hash": "530622f6d16e91326553497fa13acd178ad528dd"
+          }
+        },
+        {
+          "client_id": "1057935913962-o6a0to0dnsiae08ev2r46jmk0al85297.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbVEKVSvF2ywhh1f9xyy7HWJNjg_z7Obo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057935913962-o6a0to0dnsiae08ev2r46jmk0al85297.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

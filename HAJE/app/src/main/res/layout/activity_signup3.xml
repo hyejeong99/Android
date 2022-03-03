@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_pass"
+    tools:context=".SignupActivity3">
+
+        <EditText
+            android:id="@+id/PassName"
+            android:layout_width="252dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ic_pass_inputbox_long"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="124dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/PassBirth"
+                android:layout_width="98dp"
+                android:layout_height="37dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/ic_pass_inputbox_bday"
+                android:inputType="number"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/PassBirth2"
+                android:layout_width="32dp"
+                android:layout_height="37dp"
+                android:background="@drawable/ic_pass_inputbox_short"
+                android:inputType="number"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/PassNumber"
+            android:layout_width="252dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/ic_pass_inputbox_long"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/PassSecurity"
+            android:layout_width="135dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="71dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/ic_pass_code"
+            android:inputType="number"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/btnConfirm"
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_ok_button" />
+
+</LinearLayout>

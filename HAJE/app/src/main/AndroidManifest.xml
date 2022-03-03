@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.haje">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".MyPage2"></activity>
+
+        <activity android:name=".WebViewActivity"></activity>
+
+        <activity
+            android:name=".ShowRideActivity"
+            android:theme="@style/AppTheme.ShowRidePage" />
+        <activity
+            android:name=".DriverCallActivity"
+            android:theme="@style/AppTheme.Drivercall"></activity>
+        <activity
+
+            android:name=".SignupActivity3"
+            android:theme="@style/AppTheme.SignUpPage3" />
+
+        <activity android:name=".MyPageActivity" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="49b0f46f5cab7ddf1154d8c0399dabe0" />
+
+        <activity
+
+            android:name=".GpsActivity" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.LoginPage" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme.SignUpPage" />
+        <activity
+            android:name=".SignupActivity2"
+            android:theme="@style/AppTheme.SignUpPage2" />
+        <activity
+            android:name=".SplashActivitiy"
+            android:theme="@style/AppTheme.SplashPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".PaymentActivity"
+            android:theme="@style/AppTheme.PaymentPage" />
+    </application>
+
+</manifest>

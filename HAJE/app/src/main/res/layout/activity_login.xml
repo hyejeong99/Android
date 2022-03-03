@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/inputID"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="225dp"
+        android:backgroundTint="@color/mainPurple"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/inputPW"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/mainPurple"
+        android:textSize="15sp"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/inputPW"-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="115dp"-->
+<!--        android:backgroundTint="@color/mainPurple"-->
+<!--        android:textSize="15sp"/>-->
+
+    <ImageButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="250dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/btn_login_selector" />
+
+    <ImageButton
+        android:id="@+id/btnKakao"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/kakao_login_large_wide"
+        android:onClick="onShowClick" />
+
+    <ImageButton
+        android:id="@+id/btnNaver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_btn_naver"
+        />
+
+    <ImageButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_signup_selector"
+        android:hapticFeedbackEnabled="true" />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GpsActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/map_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"></LinearLayout>
+            <!--기사 호출 버튼-->
+            <ImageButton
+                android:id="@+id/callButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_call_selector"
+                android:elevation="4dp" />
+            <!--로딩 화면 이미지-->
+            <ImageView
+                android:id="@+id/loadingImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/frame_loading"
+                android:elevation="4dp"
+                android:visibility="invisible" />
+            <!--마이페이지 버튼-->
+            <ImageButton
+                android:id="@+id/myPgButton"
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/btn_mypage_selector"
+                android:elevation="4dp" />
+            <!--내 위치 보기 버튼-->
+            <ImageButton
+                android:id="@+id/mapGpsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="470dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_gps_selector"
+                android:elevation="4dp" />
+            <!--매칭 수락&거절 버튼-->
+            <ImageButton
+                android:id="@+id/rideButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="600dp"
+                android:layout_marginEnd="227dp"
+                android:background="@drawable/btn_fin_selector"
+                android:elevation="4dp"
+                android:onClick="onRideButtonClicked"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/arriveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="227dp"
+                android:layout_marginTop="600dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_arr_selector"
+                android:elevation="4dp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/activity_my_page" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>
